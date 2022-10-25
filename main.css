@@ -42,10 +42,10 @@ main{
 }
 
 /* Section one Style */
-.sec-one , .sec-two{
+.secOne , .secTwo{
     width: 20vw;
 }
-.sec-one  p{
+.secOne  p{
     margin-top: 0;
     font-family: var(--main-font);
     font-size: 12px;
@@ -58,7 +58,7 @@ main{
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.sec-one .inp-icon input{
+.secOne .inp-icon input{
     width: 90%;
     color: hsl(183, 100%, 15%);
     background-color:var(--inp-bg-color);
@@ -68,10 +68,10 @@ main{
     padding: 5px;
     font-family: var(--main-font);
 }
-.sec-one input{
+.secOne input{
     direction: rtl;
 }
-.sec-one input:hover{
+.secOne input:hover{
     cursor: pointer;
     border: 1px solid var(--btns-border-color);
 }
@@ -138,38 +138,38 @@ cursor: pointer;
 }
 /* Section one Style */
 
-.sec-two{
+.secTwo{
     background-color: var(--main-color);
     border-radius: 5px;
     color: #fff;
     font-family: var(--main-font);
     padding: 20px;
 }
-.sec-two .first , .sec-two .secand{
+.secTwo .first , .secTwo .secand{
  display: flex;
  justify-content: space-between;
  font-size: 8px;
 }
-.sec-two .secand{
+.secTwo .secand{
     margin-bottom: 80px;
 }
-.sec-two .left p:first-child{
+.secTwo .left p:first-child{
     margin-bottom:0 ;
     font-weight: 700;
 }
-.sec-two  .left p:nth-child(2){
+.secTwo  .left p:nth-child(2){
     color: hsl(186, 14%, 43%);
     margin: 0;
     font-weight: 700;
 }
 
-.sec-two .right p{
+.secTwo .right p{
     font-size: 25px;
     margin: 0;
     color: var(--btns-border-color);
     font-weight: 700;
 }
-.sec-two .bottom button{
+.secTwo .bottom button{
     border: none;
     outline: none;
     background-color: var(--btns-border-color);
@@ -184,7 +184,7 @@ cursor: pointer;
     transition: 0.5s;
 }
 
-.sec-two .bottom button:hover{
+.secTwo .bottom button:hover{
     cursor: pointer;
     background-color: hsl(185, 41%, 84%);
 }
@@ -199,7 +199,7 @@ cursor: pointer;
         flex-direction: column;
         max-width: 100%;
     }
-    .sec-one , .sec-two{
+    .secOne , .secTwo{
         width: 35vw;
     }
 }
@@ -207,7 +207,7 @@ cursor: pointer;
 @media(max-width:500px){
   
  
-    .sec-one , .sec-two{
+    .secOne , .secTwo{
         width: 60vw;
     }
     .btns{
