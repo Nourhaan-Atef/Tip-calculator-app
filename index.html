@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+                <!-- Css Style  -->
+    <link rel="stylesheet" href="main.css">
+    <title>Frontend Mentor | Tip calculator app</title>
+                <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="flex-center">
+    <header>
+      <h1>SPIL<br/>TTER</h1>
+    </header>
+    <main>
+      <div class="main-content flex-center">
+        <section class="sec-one">
+          <div class="top">
+            <p>Bill</p>
+            <div class="inp-icon">
+              <i class="fa fa-usd" aria-hidden="true"></i>
+              <input type="text" placeholder="0" id="bill" >
+            </div>
+        </div>
+          <div class="mid">
+            <p>Select Tip %</p>
+            <div class="btns">
+              <button value=5 id="btn-1">5%</button>
+              <button value=10 id="btn-2">10%</button>
+              <button value=15 id="btn-3">15%</button>
+              <button value=25 id="btn-4">25%</button>
+              <button value=50 id="btn-5">50%</button>
+              <input type="text" placeholder="Custom" id="custom-inp" >
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Number of People</p>
+            <div class="inp-icon">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="0" id="persons-nums" >
+            </div>
+          </div>
+        </section>
+        <section class="sec-two">
+          <div class="top">
+            <div class="first">
+              <div class="left">
+                <p>Tip Amount</p>
+                <p>/ person</p>
+              </div>
+              <div class="right">
+                <p id="tip-amount">$0.00</p>
+              </div>
+            </div>
+            <div class="secand">
+              <div class="left">
+                <p>Total</p>
+                <p>/ person</p>
+              </div>
+              <div class="right">
+                <p id="total">$0.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <button id="reset">RESET</button>
+          </div>
+
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Nourhan Atef</a>,
+        <br />
+        <a href="https://www.linkedin.com/in/nourhan-atef-54630b1b1/"
+          >My linkedIn Account </a
+        >.
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
